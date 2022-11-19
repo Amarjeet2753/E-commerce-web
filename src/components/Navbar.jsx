@@ -8,7 +8,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container = styled.div`
     height : 60px;
-    
+    ${'' /* background-color : #D3D3D3; */}
 `;
 
 const Wrapper = styled.div`
@@ -74,7 +74,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Picomart</Logo>
+          <Logo>Megamart</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
